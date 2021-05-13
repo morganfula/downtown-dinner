@@ -1,0 +1,144 @@
+<template>
+  <div class="sidenav-container">
+    <div v-if="show" class="sidenav-backdrop" @click="$emit('close')"></div>
+    <transition name="slide-side">
+      <div v-if="show" class="sidenav">
+        <ul class="nav-list" @click="$emit('close')">
+          <li class="nav-item">
+            <nuxt-link :to="localePath('/')">HOME</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/news">NEWS</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKDAY-1.pdf"
+              target="_blank"
+              >WEEKDAY</a
+            >
+          </li>
+          <!-- <li class="nav-item">
+            <a
+              href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
+              target="_blank"
+              >BOISSONS</a
+            > 
+          </li> -->
+          <li class="nav-item">
+            <a
+              href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
+              target="_blank"
+              >BRUNCH</a
+            >
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/nightbird">NIGHTBIRD</nuxt-link>
+          </li>
+          <!-- <li class="nav-item">
+            <nuxt-link to="/">SHOP</nuxt-link>
+          </li> -->
+
+          <li class="nav-item house">
+            <a href="https://blackbirdhouse.ch/">BLACKBIRD HOUSE</a>
+          </li>
+
+          <li class="nav-item house">
+            <nuxt-link :to="switchLocalePath('en')">EN</nuxt-link>
+            <nuxt-link :to="switchLocalePath('fr')">FR</nuxt-link>
+          </li>
+        </ul>
+      </div>
+    </transition>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "TheSidenav",
+  props: {
+    show: {
+      type: Boolean,
+      default: false
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.sidenav-container {
+  height: 100%;
+  width: 100%;
+}
+
+.sidenav-backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 40vw;
+  background-color: #f3de43;
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.slide-side-enter-active,
+.slide-side-leave-active {
+  transition: all 0.3s ease-out;
+}
+.slide-side-enter,
+.slide-side-leave-to {
+  transform: translateX(-100%);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  margin: 20px 0;
+}
+
+.house {
+  margin-top: 128px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  color: red;
+}
+
+@media (max-width: $tablet) {
+  .sidenav {
+    height: 100%;
+    width: 100vw;
+    background-color: #f3de43;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+}
+</style>
