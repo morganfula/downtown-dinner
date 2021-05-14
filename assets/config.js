@@ -16,7 +16,7 @@ export default {
   url: "https://nuxt-headless.netlify.com/", // your website url
   loadDbName: "[starter_wp]", // db name if needed
   api: {
-    // homePage: "/wp/v2/pages/357",
+    homePage: "/wp/v2/pages/357",
     nightBird: "/wp/v2/pages/434",
     newsPage: "/wp/v2/pages/470", // the [page_id] from WordPress
     // this url will hit an endpoint for contact form 7 plugin
