@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <cookie-box />
+    <!-- <cookie-box /> -->
     <!-- <the-nav /> -->
     <TheHeader @sidenavToggle="displaySidenav = !displaySidenav" />
     <TheSidenav :show="displaySidenav" @close="displaySidenav = false" />
