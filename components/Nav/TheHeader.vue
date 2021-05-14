@@ -3,8 +3,8 @@
     <header
       class="the-header navdark"
       :class="{
-        navclear: $route.path === '/',
-        navdark: $route.path != '/'
+        navclear: $route.path === '/' || $route.path === '/en',
+        navdark: $route.path != '/' || $route.path != '/en'
       }"
     >
       <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
