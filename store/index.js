@@ -44,17 +44,14 @@ export const mutations = {
   },
   setHomepage(state, obj) {
     state.homePage = obj;
-    // console.log(obj);
   },
 
   setNightbird(state, obj) {
     state.nightBird = obj;
-    // console.log(obj);
   },
 
   setNews(state, obj) {
     state.newsPage = obj;
-    // console.log(obj);
   },
   windowResize(state, size) {
     state.window = size;
