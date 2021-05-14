@@ -17,7 +17,6 @@ export default {
   async fetch({ app, store }) {
     if (!store.state.homePage.length) {
       const home = await app.$http.$get(Config.wpDomain + Config.api.homePage);
-
       store.commit("setHomepage", home);
     }
   },
@@ -71,9 +70,6 @@ export default {
       } else {
         return this.homePage.acf.header_en;
       }
-      // console.log(this.$i18n);
-      // if (this.$store.state.homePage == null) return false;
-      // return this.homePage.acf;
     },
     main() {
       if (this.$i18n.locale === "fr") {
