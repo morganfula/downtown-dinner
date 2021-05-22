@@ -117,6 +117,7 @@ footer {
   .address {
     grid-area: address;
     padding: $gap;
+
     h3 {
       font-size: 1.2rem;
     }
@@ -224,7 +225,7 @@ footer {
     .grid-container {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: 0.5fr 1fr 1fr;
       gap: 0px 0px;
       grid-template-areas:
         "address"

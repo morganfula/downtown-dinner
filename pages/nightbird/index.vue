@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 
   .grid-container {
@@ -76,8 +76,8 @@ section {
       }
       .text {
         margin-top: 120px;
-        padding: 0 (2 * $gap);
-        color: white;
+        padding: 0 $gap;
+        color: $white;
         height: 100%;
       }
     }
@@ -102,6 +102,8 @@ section {
 
       .left {
         grid-area: left;
+        height: 100%;
+        padding-bottom: $gap;
 
         position: relative;
         .left-img {
@@ -109,7 +111,7 @@ section {
           z-index: -1;
         }
         .text {
-          padding: 0 (2 * $gap);
+          padding: 0 $gap;
           color: white;
         }
       }

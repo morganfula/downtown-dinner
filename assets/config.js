@@ -3,10 +3,10 @@
 const apiEndpoint = "downtowndiner.ch"; // change api.moustachedesign.xyz to your wordpress url
 
 export default {
-  appTitleShort: "Nuxt Headless",
-  appTitle: "Nuxt Headless boilerplate",
-  appTitleShort: "Nuxt-headless",
-  appDescription: "Nuxt Headless with Wordpress REST API",
+  appTitleShort: "Downtown Diner",
+  appTitle: "Downtown Diner Lausanne",
+  appTitleShort: "downtown diner",
+  appDescription: "Black Bird Downtown",
   appThemeColor: "#ffffff ",
   appBgColor: "#00172c ",
   appIcon: "assets/icon.png",

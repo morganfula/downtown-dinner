@@ -72,6 +72,41 @@ export default {
 
 @media (max-width: $tablet) {
   .news {
+    margin-top: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      padding: 0;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      gap: $gap;
+      grid-template-areas:
+        "left"
+        "right";
+    }
+
+    .left {
+      grid-area: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 300px;
+        height: auto;
+      }
+    }
+
+    .right {
+      grid-area: right;
+      padding: 0 $gap;
+      padding-bottom: $gap;
+    }
   }
 }
 </style>

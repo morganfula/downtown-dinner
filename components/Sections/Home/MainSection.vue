@@ -107,11 +107,13 @@ export default {
       max-width: 680px;
     }
   }
+
   .div3 {
     grid-area: div3;
     height: 600px;
     background-color: green;
   }
+
   .div4 {
     grid-area: div4;
     height: 600px;
@@ -119,6 +121,7 @@ export default {
     .image {
     }
   }
+
   .div5 {
     grid-area: div5;
     padding: $gap;
@@ -127,6 +130,7 @@ export default {
     align-items: center;
     background: #f5f5f5;
   }
+
   .div6 {
     grid-area: div6;
     position: relative;
@@ -137,9 +141,10 @@ export default {
       filter: brightness(50%);
     }
     .info {
+      min-width: 250px;
       color: $white;
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
@@ -170,8 +175,8 @@ export default {
       "div1"
       "div2"
       "div3"
-      "div4"
       "div5"
+      "div4"
       "div6";
   }
 }
