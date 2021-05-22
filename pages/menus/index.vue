@@ -2,7 +2,7 @@
   <div class="wrapper">
     <!-- <button class="change__style" @click="changeStyle()">Change Style</button> -->
     <tabs :mode="mode">
-      <tab title="weekday">
+      <tab title="WEEKDAYS">
         <div class="grid-container">
           <div class="col_1">
             <div v-html="menus.acf.weekdays.col_1"></div>
@@ -19,7 +19,7 @@
         </div>
       </tab>
 
-      <tab title="brunch">
+      <tab title="BRUNCH">
         <div class="grid-container">
           <div class="col_1">
             <div v-html="menus.acf.brunch.col_1"></div>
@@ -36,7 +36,7 @@
         </div>
       </tab>
 
-      <tab title="drinks">
+      <tab title="DRINKS">
         <div class="grid-container">
           <div class="col_1">
             <div v-html="menus.acf.drinks.col_1"></div>
