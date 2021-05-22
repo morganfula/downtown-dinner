@@ -56,7 +56,7 @@ ul.tabs__header {
 }
 
 ul.tabs__header > li {
-  padding: 12px 25px;
+  padding: 10px 20px;
   margin: 0;
   display: inline-block;
   margin-right: 5px;

@@ -11,7 +11,7 @@ export default {
   head: {
     titleTemplate: titleChunk => {
       // If undefined or blank then we don't need the hyphen
-      return titleChunk ? `${titleChunk} - Nuxt Headless` : "Nuxt Headless";
+      return titleChunk ? `${titleChunk} - Downtown Dinner` : "Downtown Dinner";
     },
     htmlAttrs: {
       lang: "en"
@@ -29,7 +29,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Nuxt Headless"
+        content: "Downtown Dinner"
       },
       {
         hid: "keywords",
@@ -41,11 +41,11 @@ export default {
         name: "image",
         content: "https://nuxt-headless.netlify.com/images/seo.png"
       },
-      { hid: "name", itemprop: "name", content: "Nuxt Headless" },
+      { hid: "name", itemprop: "name", content: "Downtown Dinner" },
       {
         hid: "description",
         itemprop: "description",
-        content: "Nuxt Headless"
+        content: "Downtown Dinner"
       },
       {
         hid: "image",
@@ -60,12 +60,12 @@ export default {
       {
         hid: "twitter:title",
         name: "twitter:title",
-        content: "Nuxt Headless"
+        content: "Downtown Dinner"
       },
       {
         hid: "twitter:description",
         name: "twitter:description",
-        content: "Nuxt Headless"
+        content: "Downtown Dinner"
       },
       { hid: "twitter:site", name: "twitter:site", content: "@moustacheDsign" },
       {
@@ -86,18 +86,18 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "Nuxt Headless"
+        content: "Downtown Dinner"
       },
       { hid: "og:url", property: "og:url", content: Config.url },
       {
         hid: "og:site_name",
         property: "og:site_name",
-        content: "Nuxt Headless Website"
+        content: "Downtown Dinner Website"
       },
       {
         hid: "og:description",
         property: "og:description",
-        content: "Nuxt Headless"
+        content: "Downtown Dinner"
       },
       { hid: "og:locale", property: "og:locale", content: "en_GB" },
       { hid: "og:type", property: "og:type", content: "website" },
@@ -135,7 +135,7 @@ export default {
    ** PWA Configuration
    */
   manifest: {
-    name: "Nuxt Headless",
+    name: "Downtown Dinner",
     short_name: "Nuxt-headless",
     theme_color: "#000000",
     background_color: "#f2d636",
