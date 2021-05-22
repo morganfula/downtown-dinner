@@ -4,9 +4,13 @@
       <img :src="main.first.background.url" alt="" class="image" />
       <div class="info">
         <div v-html="main.first.text"></div>
-        <nuxt-link to="/nightbird" class="btn--is-white">
+        <a
+          href="https://www.smood.ch/en/delivery-takeaway/restaurants/lausanne/downtown-diner"
+          class="btn--is-white"
+          target="_blank"
+        >
           {{ main.first.button }}
-        </nuxt-link>
+        </a>
       </div>
     </div>
 
@@ -90,7 +94,7 @@ export default {
 
     .info {
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }

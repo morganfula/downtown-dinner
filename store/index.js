@@ -6,6 +6,7 @@ export const state = () => ({
   homePage: [],
   nightBird: [],
   newsPage: [],
+  menus: [],
   store: [],
   window: 320,
   connection: null,
@@ -52,6 +53,10 @@ export const mutations = {
 
   setNews(state, obj) {
     state.newsPage = obj;
+  },
+
+  setMenus(state, obj) {
+    state.menus = obj;
   },
   windowResize(state, size) {
     state.window = size;

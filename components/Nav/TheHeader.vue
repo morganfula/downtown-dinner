@@ -43,10 +43,20 @@
             <img src="../../assets/images/icons/instagram.png" alt="" />
           </a>
         </li>
+        <li class="nav-item house">
+          <nuxt-link :to="switchLocalePath('en')">
+            <img src="../../assets/images/icons/united-kingdom.png" alt="" />
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link :to="switchLocalePath('fr')">
+            <img src="../../assets/images/icons/france.png" alt="" />
+          </nuxt-link>
+        </li>
       </ul>
 
       <nuxt-link :to="localePath('/reservation')" class="reservation-btn"
-        >reservation</nuxt-link
+        >reservations</nuxt-link
       >
     </header>
   </div>

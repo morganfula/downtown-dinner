@@ -11,26 +11,29 @@
             <nuxt-link to="/news">NEWS</nuxt-link>
           </li>
           <li class="nav-item">
+            <nuxt-link :to="localePath('/menus')">MENUS</nuxt-link>
+          </li>
+          <!-- <li class="nav-item">
             <a
               href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKDAY-1.pdf"
               target="_blank"
               >WEEKDAY</a
             >
-          </li>
+          </li> -->
           <!-- <li class="nav-item">
             <a
               href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
               target="_blank"
               >BOISSONS</a
-            > 
+            >
           </li> -->
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a
               href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
               target="_blank"
               >BRUNCH</a
             >
-          </li>
+          </li> -->
           <li class="nav-item">
             <nuxt-link to="/nightbird">NIGHTBIRD</nuxt-link>
           </li>
@@ -39,12 +42,7 @@
           </li> -->
 
           <li class="nav-item house">
-            <a href="https://blackbirdhouse.ch/">BLACKBIRD HOUSE</a>
-          </li>
-
-          <li class="nav-item house">
-            <nuxt-link :to="switchLocalePath('en')">EN</nuxt-link>
-            <nuxt-link :to="switchLocalePath('fr')">FR</nuxt-link>
+            <a href="https://blackbirdhouse.ch/">BLACKBIRD HOUSE ROLLE</a>
           </li>
         </ul>
       </div>
@@ -120,7 +118,7 @@ export default {
 .nav-item a {
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .nav-item a:hover,

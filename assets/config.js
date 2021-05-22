@@ -18,7 +18,8 @@ export default {
   api: {
     homePage: "/wp/v2/pages/357",
     nightBird: "/wp/v2/pages/434",
-    newsPage: "/wp/v2/pages/470", // the [page_id] from WordPress
+    newsPage: "/wp/v2/pages/470",
+    menus: "/wp/v2/pages/533", // the [page_id] from WordPress
     // this url will hit an endpoint for contact form 7 plugin
     postFormContact: "/contact-form-7/v1/contact-forms/[form_id]/feedback" // change {form_id} with the contact form 7 id provided
   }
