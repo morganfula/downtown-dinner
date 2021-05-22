@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <h2 class="big">BLACKBIRD</h2>
     <div class="grid-container">
       <div class="address">

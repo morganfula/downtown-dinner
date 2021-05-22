@@ -13,33 +13,15 @@
           <li class="nav-item">
             <nuxt-link :to="localePath('/menus')">MENUS</nuxt-link>
           </li>
-          <!-- <li class="nav-item">
-            <a
-              href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKDAY-1.pdf"
-              target="_blank"
-              >WEEKDAY</a
-            >
-          </li> -->
-          <!-- <li class="nav-item">
-            <a
-              href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
-              target="_blank"
-              >BOISSONS</a
-            >
-          </li> -->
-          <!-- <li class="nav-item">
-            <a
-              href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
-              target="_blank"
-              >BRUNCH</a
-            >
-          </li> -->
+
           <li class="nav-item">
             <nuxt-link to="/nightbird">NIGHTBIRD</nuxt-link>
           </li>
-          <!-- <li class="nav-item">
-            <nuxt-link to="/">SHOP</nuxt-link>
-          </li> -->
+          <li class="nav-item">
+            <a href="#footer">
+              CONTACT
+            </a>
+          </li>
 
           <li class="nav-item house">
             <a href="https://blackbirdhouse.ch/">BLACKBIRD HOUSE ROLLE</a>

@@ -2,7 +2,7 @@
   <div class="sidenav-container">
     <div v-if="show" class="sidenav-backdrop" @click="$emit('close')"></div>
     <div align="center">
-      NOW OPEN - BOOK ONLINE<iframe
+      <iframe
         src="https://module.lafourchette.com/fr_CH/module/591337-ab9c0"
         style="width: 100%; min-height:600px; border:none; scrolling:yes;"
       ></iframe>

@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="wrapper">
-    <button class="change__style" @click="changeStyle()">Change Style</button>
+    <!-- <button class="change__style" @click="changeStyle()">Change Style</button> -->
     <tabs :mode="mode">
       <tab title="weekday">
         <div class="grid-container">
@@ -89,7 +89,6 @@ export default {
   computed: {
     menus() {
       if (this.$store.state.menus == null) return false;
-      console.log(this.$store.state.menus);
       return this.$store.state.menus;
     }
   }
@@ -108,6 +107,7 @@ export default {
   background-color: #f8f8f8;
   margin: 0;
   padding: 20px;
+  margin-top: 60px;
 }
 
 .change__style {
@@ -142,6 +142,14 @@ export default {
 }
 
 @media (max-width: $tablet) {
+  .wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    margin-top: 40px;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;

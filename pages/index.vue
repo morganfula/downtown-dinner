@@ -20,6 +20,7 @@ export default {
       store.commit("setHomepage", home);
     }
   },
+
   mixins: [Defer()],
   data() {
     return {
