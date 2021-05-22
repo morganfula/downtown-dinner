@@ -6,7 +6,7 @@
     <TheSidenav :show="displaySidenav" @close="displaySidenav = false" />
 
     <nuxt />
-    <the-footer />
+    <the-footer :footer="footer" />
   </div>
 </template>
 
@@ -16,6 +16,12 @@ import TheSidenav from "@/components/Nav/TheSidenav";
 import TheSideNavRightToggle from "@/components/Nav/TheSideNavRightToggle";
 
 export default {
+  async fetch({ app, store }) {
+    if (!store.state.footer.length) {
+      const footer = await app.$http.$get(Config.wpDomain + Config.api.footer);
+      store.commit("setFooter", footer);
+    }
+  },
   components: {
     TheHeader,
     TheSidenav,
@@ -28,6 +34,12 @@ export default {
       displaySidenav: false,
       displaySidenavRight: false
     };
+  },
+  computed: {
+    footer() {
+      if (this.$store.state.footer == null) return false;
+      return this.$store.state.footer;
+    }
   }
 };
 </script>

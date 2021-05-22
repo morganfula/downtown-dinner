@@ -88,12 +88,7 @@
 <script>
 export default {
   name: "TheFooter",
-  props: {
-    mobilenav: {
-      type: Boolean,
-      default: true
-    }
-  }
+  props: ["footer"]
 };
 </script>
 

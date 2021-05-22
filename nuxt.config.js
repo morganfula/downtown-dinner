@@ -11,7 +11,7 @@ export default {
   head: {
     titleTemplate: titleChunk => {
       // If undefined or blank then we don't need the hyphen
-      return titleChunk ? `${titleChunk} - Downtown Dinner` : "Downtown Dinner";
+      return titleChunk ? `${titleChunk}` : "Downtown Dinner";
     },
     htmlAttrs: {
       lang: "en"
@@ -136,7 +136,7 @@ export default {
    */
   manifest: {
     name: "Downtown Dinner",
-    short_name: "Nuxt-headless",
+    short_name: "Downtown-Dinner",
     theme_color: "#000000",
     background_color: "#f2d636",
     display: "standalone",

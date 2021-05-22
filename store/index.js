@@ -7,6 +7,7 @@ export const state = () => ({
   nightBird: [],
   newsPage: [],
   menus: [],
+  footer: [],
   store: [],
   window: 320,
   connection: null,
@@ -58,6 +59,11 @@ export const mutations = {
   setMenus(state, obj) {
     state.menus = obj;
   },
+
+  setFooter(state, obj) {
+    state.footer = obj;
+  },
+
   windowResize(state, size) {
     state.window = size;
   },
