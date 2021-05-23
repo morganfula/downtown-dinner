@@ -229,7 +229,7 @@ export default {
    ** Customize the progress-bar style
    */
   loading: {
-    color: "#f4a261",
+    color: "#57a2d8",
     height: "4px",
     failedColor: "#DF4661"
   },
