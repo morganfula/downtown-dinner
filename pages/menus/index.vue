@@ -153,8 +153,9 @@ export default {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    gap: 8px 0px;
+    // grid-template-rows: repeat(4, 1fr);
+    grid-auto-rows: min-content;
+    gap: 16px 0px;
     grid-template-areas:
       "col_1"
       "col_2"

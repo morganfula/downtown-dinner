@@ -1,6 +1,6 @@
 "use strict";
 
-const apiEndpoint = "downtowndiner.ch"; // change api.moustachedesign.xyz to your wordpress url
+const apiEndpoint = "blackbirddinerwpengine.com"; // change api.moustachedesign.xyz to your wordpress url
 
 export default {
   appTitleShort: "Downtown Diner",
