@@ -18,7 +18,7 @@
       <div class="info">
         <div v-html="main.second.text"></div>
         <a
-          href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKDAY-1.pdf"
+          href="https://blackbirddinerwpengine.com/wp-content/uploads/2021/03/rough_1_DINER_WEEKDAY-1.pdf"
           class="btn"
           target="_blank"
           >{{ main.second.button }}</a
@@ -37,7 +37,7 @@
         <div v-html="main.third.text"></div>
 
         <a
-          href="https://downtowndiner.ch/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
+          href="https://blackbirddinerwpengine.com/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
           class="btn"
           target="_blank"
           >{{ main.third.button }}</a
