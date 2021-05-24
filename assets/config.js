@@ -1,6 +1,6 @@
 "use strict";
 
-const apiEndpoint = "blackbirddinerwpengine.com"; // change api.moustachedesign.xyz to your wordpress url
+const apiEndpoint = "www.blackbirddinerwpengine.com"; // change api.moustachedesign.xyz to your wordpress url
 
 export default {
   appTitleShort: "Downtown Diner",
@@ -13,7 +13,7 @@ export default {
   // these are the rest api endpoints and your wordpress url
   client: `https://${apiEndpoint}`,
   wpDomain: `https://${apiEndpoint}/wp-json`,
-  url: "https://www.downtown-dinner.ch/", // your website url
+  url: "https://www.downtowndinner.ch/", // your website url
   loadDbName: "[starter_wp]", // db name if needed
   api: {
     homePage: "/wp/v2/pages/357",

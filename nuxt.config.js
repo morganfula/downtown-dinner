@@ -4,7 +4,7 @@ import axios from "axios";
 import open from "open";
 
 export default {
-  target: 'static',
+  target: "static",
   /*
    ** Headers
    ** Common headers are already provided by @nuxtjs/pwa preset
@@ -253,7 +253,7 @@ export default {
     "nuxt-i18n"
   ],
   i18n: {
-    locales: ["en", "fr", "es"],
+    locales: ["en", "fr"],
     defaultLocale: "fr"
   },
   styleResources: {
