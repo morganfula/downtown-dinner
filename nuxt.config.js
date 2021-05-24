@@ -4,6 +4,7 @@ import axios from "axios";
 import open from "open";
 
 export default {
+  target: 'static',
   /*
    ** Headers
    ** Common headers are already provided by @nuxtjs/pwa preset
