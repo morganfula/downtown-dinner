@@ -16,23 +16,27 @@
           HORAIRES
         </h3>
         <div>
-          <p>Lundi – Mercredi: 07.30 - 22.00</p>
-          <p>Cuisine: 07.30 - 14.00/18.00 - 22.00</p>
+          <p>Lundi – Mercredi</p>
+          <p>09.00 - 22.00</p>
+          <p>Cuisine: 09.00 - 13.30/18.00 - 21.00</p>
         </div>
 
         <div>
-          <p>Jeudi – Vendredi: 07.30 - 23.00</p>
-          <p>Cuisine: 07.30 - 14.30/18.00-22.00</p>
+          <p>Jeudi et Vendredi</p>
+          <p>09.00 - 00.00</p>
+          <p>Cuisine: 09.30 - 13.30/18.00-21.00</p>
         </div>
 
         <div>
-          <p>samedi: 07.30 - 22.00</p>
-          <p>Cuisine: 08.00 - 15.30/18.00 - 22.00</p>
+          <p>Samedi</p>
+          <p>09.00 - 00.00</p>
+          <p>Cuisine: 09.00 - 15.30/18.00 - 21.00</p>
         </div>
 
         <div>
-          <p>Dimanche: 09.00 - 16.00</p>
-          <p>Cuisine: 09.00 - 15.30</p>
+          <p>Dimanche</p>
+          <p>09.00 - 16.00</p>
+          <p>Cuisine: 09.00 - 15.00</p>
         </div>
       </div>
       <div class="map">
