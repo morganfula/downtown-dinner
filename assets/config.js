@@ -22,6 +22,8 @@ export default {
     menus: "/wp/v2/pages/533",
     footer: "/wp/v2/pages/591",
 
+    pages: "/wp/v2/pages",
+
     // the [page_id] from WordPress
     // this url will hit an endpoint for contact form 7 plugin
     postFormContact: "/contact-form-7/v1/contact-forms/[form_id]/feedback" // change {form_id} with the contact form 7 id provided

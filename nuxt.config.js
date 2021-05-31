@@ -293,6 +293,8 @@ export default {
     "~/plugins/vue-localstorage.client.js",
     "~/plugins/vue-smooth-scroll.client.js",
     "~/plugins/splitting.client.js",
-    "~/plugins/hotjar.client.js"
+    "~/plugins/hotjar.client.js",
+    "~/plugins/axios.js",
+    "~/plugins/data.server.js"
   ]
 };

@@ -13,6 +13,8 @@ import Config from "~/assets/config";
 import get from "lodash/get";
 import Defer from "@/mixins/Defer";
 
+import { mapState, mapGetters, mapActions } from "vuex";
+
 export default {
   async fetch({ app, store }) {
     if (!store.state.homePage.length) {
@@ -46,24 +48,13 @@ export default {
     }
   },
   methods: {
-    // hideMenu() {
-    //   this.$store.commit("hideMenuBg");
-    // },
-    // showMenu(response) {
-    //   if (
-    //     response.index >= 0 &&
-    //     response.direction === "down" &&
-    //     !this.$store.state.menuScrolled
-    //   ) {
-    //     this.animateWork = true;
-    //     this.$store.dispatch("showMenu");
-    //   }
-    // }
+    ...mapActions(["getPages"])
   },
   computed: {
+    ...mapState(["pages"]),
+
     homePage() {
-      if (this.$store.state.homePage == null) return false;
-      return this.$store.state.homePage;
+      return this.pages.find(page => page.slug === "home-2021");
     },
     header() {
       if (this.$i18n.locale === "fr") {
@@ -79,24 +70,11 @@ export default {
         return this.homePage.acf.main_en;
       }
     }
+  },
+  created() {
+    this.getPages();
   }
 };
 </script>
 
-<style lang="scss" scoped>
-// h1 {
-//   @include media(sm) {
-//     max-width: 480px;
-//     padding-left: 0;
-//   }
-// }
-
-// section {
-//   margin: $gap / 1.5 0;
-//   width: 100%;
-
-//   @include media(md) {
-//     margin: $gap * 3 auto;
-//   }
-// }
-</style>
+<style lang="scss" scoped></style>
