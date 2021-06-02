@@ -4,7 +4,7 @@
     <div class="grid-container">
       <div class="address">
         <h3>
-          ADDRESSE
+          ADRESSE
         </h3>
         <p>Downtown Diner.</p>
         <p>Route de Bel-Air 1</p>
@@ -18,19 +18,19 @@
         <div>
           <p>Lundi – Mercredi</p>
           <p>09.00 - 22.00</p>
-          <p>Cuisine: 09.00 - 13.30/18.00 - 21.00</p>
+          <p>Cuisine: 09.00-13.30 / 18.00-21.00</p>
         </div>
 
         <div>
           <p>Jeudi et Vendredi</p>
           <p>09.00 - 00.00</p>
-          <p>Cuisine: 09.30 - 13.30/18.00-21.00</p>
+          <p>Cuisine: 09.30-13.30 / 18.00-21.00</p>
         </div>
 
         <div>
           <p>Samedi</p>
           <p>09.00 - 00.00</p>
-          <p>Cuisine: 09.00 - 15.30/18.00 - 21.00</p>
+          <p>Cuisine: 09.00-15.30 / 18.00-21.00</p>
         </div>
 
         <div>

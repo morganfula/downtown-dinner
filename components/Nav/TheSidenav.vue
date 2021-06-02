@@ -26,6 +26,22 @@
           <li class="nav-item house">
             <a href="https://blackbirdhouse.ch/">BLACKBIRD HOUSE ROLLE</a>
           </li>
+
+          <ul class="socials">
+            <li>
+              <nuxt-link :to="switchLocalePath('en')">
+                <img
+                  src="../../assets/images/icons/united-kingdom.png"
+                  alt=""
+                />
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link :to="switchLocalePath('fr')">
+                <img src="../../assets/images/icons/france.png" alt="" />
+              </nuxt-link>
+            </li>
+          </ul>
         </ul>
       </div>
     </transition>
@@ -107,6 +123,26 @@ export default {
 .nav-item a:active {
   color: red;
 }
+.socials {
+  display: none;
+  // justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  align-self: flex-end;
+  margin-top: 2 * $gap;
+
+  // position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+}
+
+.socials img {
+  height: 30px;
+  width: auto;
+  padding-right: 16px;
+}
 
 @media (max-width: $tablet) {
   .sidenav {
@@ -119,6 +155,10 @@ export default {
     left: 0;
     box-sizing: border-box;
     padding: 30px;
+
+    .socials {
+      display: flex;
+    }
   }
 }
 </style>
