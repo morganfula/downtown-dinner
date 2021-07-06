@@ -4,25 +4,18 @@
       <img :src="main.first.background.url" alt="" class="image" />
       <div class="info">
         <div v-html="main.first.text"></div>
-        <a
-          href="https://www.smood.ch/en/delivery-takeaway/restaurants/lausanne/downtown-diner"
-          class="btn--is-white"
-          target="_blank"
-        >
+        <nuxt-link to="/menus" class="btn--is-white">
           {{ main.first.button }}
-        </a>
+        </nuxt-link>
       </div>
     </div>
 
     <div class="div2">
       <div class="info">
         <div v-html="main.second.text"></div>
-        <a
-          href="https://blackbirddinerwpengine.com/wp-content/uploads/2021/03/rough_1_DINER_WEEKDAY-1.pdf"
-          class="btn"
-          target="_blank"
-          >{{ main.second.button }}</a
-        >
+        <nuxt-link to="/menus" class="btn">
+          {{ main.second.button }}
+        </nuxt-link>
       </div>
     </div>
     <div class="div3 img-hover-zoom">
@@ -36,12 +29,9 @@
       <div class="info">
         <div v-html="main.third.text"></div>
 
-        <a
-          href="https://blackbirddinerwpengine.com/wp-content/uploads/2021/03/rough_1_DINER_WEEKEND_BRUNCH.pdf"
-          class="btn"
-          target="_blank"
-          >{{ main.third.button }}</a
-        >
+        <nuxt-link to="/menus" class="btn">
+          {{ main.third.button }}
+        </nuxt-link>
       </div>
     </div>
 
