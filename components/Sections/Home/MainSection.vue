@@ -4,9 +4,13 @@
       <img :src="main.first.background.url" alt="" class="image" />
       <div class="info">
         <div v-html="main.first.text"></div>
-        <nuxt-link to="/menus" class="btn--is-white">
+        <a
+          href="https://www.smood.ch/fr/livraison-retrait/restaurants/lausanne/downtown-diner"
+          class="btn--is-white"
+          target="_blank"
+        >
           {{ main.first.button }}
-        </nuxt-link>
+        </a>
       </div>
     </div>
 
