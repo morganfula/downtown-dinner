@@ -5,7 +5,7 @@
       <div class="info">
         <div v-html="main.first.text"></div>
         <a
-          href="https://www.smood.ch/fr/livraison-retrait/restaurants/lausanne/downtown-diner"
+          href="https://www.ubereats.com/ch-fr/store/blackbird-downtown-diner/f0IbtmBhR9SzypGKL853Ww?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkJsYWNrYmlyZCUyMERvd250b3duJTIwRGluZXIlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjJDaElKR2RWUzRpMHVqRWNScW5HN2l6Rk1vSkUlMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIyZ29vZ2xlX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDYuNTIxNjEyMiUyQyUyMmxvbmdpdHVkZSUyMiUzQTYuNjI5NzgxNyU3RA%3D%3D"
           class="btn--is-white"
           target="_blank"
         >
