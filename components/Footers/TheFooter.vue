@@ -36,7 +36,7 @@
         <div>
           <p><strong>Dimanche</strong></p>
           <p>08.30 - 16.00</p>
-          <p>Cuisine: 09.00 - 16.00 (BRUNCH)</p>
+          <p>Cuisine: 09.00 - 15.00 (BRUNCH)</p>
         </div>
       </div>
       <div class="map">
