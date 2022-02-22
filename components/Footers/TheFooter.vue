@@ -10,6 +10,7 @@
         <p>Route de Bel-Air 1</p>
         <p>1003 Lausanne</p>
         <p>Switzerland</p>
+        <p>info@blackbirdlausanne.com</p>
       </div>
       <div class="hours">
         <h3>

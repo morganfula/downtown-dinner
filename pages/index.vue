@@ -34,7 +34,7 @@ export default {
     MainSection
   },
   head() {
-    return { title: "Home" };
+    return { title: "Black Bird Downtown Dinner" };
   },
   mounted() {
     if (process.client) {

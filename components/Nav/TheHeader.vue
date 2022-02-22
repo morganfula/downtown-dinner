@@ -64,14 +64,12 @@
 
 <script>
 import TheSideNavToggle from "@/components/Nav/TheSideNavToggle";
-import TheSideNavRightToggle from "@/components/Nav/TheSideNavRightToggle";
 
 export default {
   name: "TheHeader",
 
   components: {
-    TheSideNavToggle,
-    TheSideNavRightToggle
+    TheSideNavToggle
   }
 };
 </script>

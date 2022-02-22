@@ -13,7 +13,7 @@
 <script>
 import TheHeader from "@/components/Nav/TheHeader";
 import TheSidenav from "@/components/Nav/TheSidenav";
-import TheSideNavRightToggle from "@/components/Nav/TheSideNavRightToggle";
+// import TheSideNavRightToggle from "@/components/Nav/TheSideNavRightToggle";
 
 export default {
   async fetch({ app, store }) {
@@ -25,7 +25,7 @@ export default {
   components: {
     TheHeader,
     TheSidenav,
-    TheSideNavRightToggle,
+
     TheFooter: () => import("@/components/Footers/TheFooter"),
     CookieBox: () => import("@/components/UI/CookieBox")
   },
