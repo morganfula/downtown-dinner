@@ -5,6 +5,7 @@ import open from "open";
 
 export default {
   target: "static",
+  ssr: false,
   /*
    ** Headers
    ** Common headers are already provided by @nuxtjs/pwa preset
