@@ -16,8 +16,15 @@
         <h3>
           HORAIRES
         </h3>
+
         <div>
-          <p><strong>du Lundi au Mercredi</strong></p>
+          <p><strong>Lundi</strong></p>
+          <p>08.30 - 15.30</p>
+          <p>Cuisine: 09.00-14.00</p>
+        </div>
+
+        <div>
+          <p><strong>Mardi et Mercredi</strong></p>
           <p>08.30 - 22.30</p>
           <p>Cuisine: 09.00-14.00 / 18.00-21.30</p>
         </div>
