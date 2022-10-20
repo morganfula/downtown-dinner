@@ -14,18 +14,18 @@
             <nuxt-link :to="localePath('/menus')">MENUS</nuxt-link>
           </li>
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <nuxt-link to="/nightbird">NIGHTBIRD</nuxt-link>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="#footer">
               CONTACT
             </a>
           </li>
 
-          <li class="nav-item house">
+          <!-- <li class="nav-item house">
             <a href="https://blackbirdhouse.ch/">BLACKBIRD HOUSE ROLLE</a>
-          </li>
+          </li> -->
 
           <ul class="socials">
             <li>

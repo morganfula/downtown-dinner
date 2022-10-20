@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div class="div6">
+    <!-- <div class="div6">
       <img :src="main.fourth.background.url" alt="" class="image" />
       <div class="info">
         <div>
@@ -51,7 +51,7 @@
           En savoir plus
         </nuxt-link>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -67,13 +67,12 @@ export default {
   // height: 150vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 0px 0px;
   grid-template-areas:
     "div1 div1"
     "div2 div3"
-    "div4 div5"
-    "div6 div6";
+    "div4 div5";
 
   .div1 {
     grid-area: div1;
@@ -167,15 +166,14 @@ export default {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 0px 0px;
     grid-template-areas:
       "div1"
       "div2"
       "div3"
       "div5"
-      "div4"
-      "div6";
+      "div4";
   }
 }
 </style>
