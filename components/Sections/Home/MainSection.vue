@@ -1,7 +1,7 @@
 <template>
   <div class="grid-container">
-    <div class="div1">
-      <img :src="main.first.background.url" alt="" class="image" />
+    <div class="div1 no-image">
+      <!-- <img :src="main.first.background.url" alt="" class="image" /> -->
       <div class="info">
         <div v-html="main.first.text"></div>
         <a
@@ -22,12 +22,12 @@
         </nuxt-link>
       </div>
     </div>
-    <div class="div3 img-hover-zoom">
-      <img :src="main.second.background.url" alt="" class="image" />
+    <div class="div3 img-hover-zoom no-image">
+      <!-- <img :src="main.second.background.url" alt="" class="image" /> -->
     </div>
 
-    <div class="div4 img-hover-zoom">
-      <img :src="main.third.background.url" alt="" class="image" />
+    <div class="div4 img-hover-zoom no-image">
+      <!-- <img :src="main.third.background.url" alt="" class="image" /> -->
     </div>
     <div class="div5">
       <div class="info">
@@ -63,6 +63,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.no-image {
+  background: url("https://blackbirddinerwpengine.com/wp-content/uploads/2021/03/blackbird.png");
+}
 .grid-container {
   // height: 150vh;
   display: grid;
